@@ -1,0 +1,19 @@
+p {
+  /* 1. FONT FAMILY */
+  font-family: "Comic Neue";
+
+  /* 2. FONT SIZE */
+  font-size: 20px;
+
+  /* 3. FONT WEIGTH (100 - 900)*/
+  font-weight: 900;
+
+  /* 4. LINE HEIGHT */
+  line-height: 2;
+
+  /* 5. COLOR */
+  color: red;
+
+  /* 6. TEXT ALIGN */
+  text-align: justify;
+}

@@ -1,0 +1,45 @@
+/* 1. Element Selector */
+p {
+  color: red;
+}
+
+/* 2. Class Selector (.) */
+.teks1 {
+  color: blue;
+}
+
+/* 3. ID Selector (#) */
+#teks1 {
+  color: magenta;
+}
+
+/* 4. Universal Selector (*) */
+* {
+  text-decoration: underline;
+}
+
+/* Tambahan : Combination Selector */
+p.teks2#teks2 {
+  color: blueviolet;
+}
+
+/* 5. Descendant Selector (spasi) */
+div.parent1 p {
+  color: darkcyan;
+}
+
+/* 6. Child Selector (>) */
+div.parent2 > span {
+  color: gold;
+}
+
+/* 14. Hover Selector (:hover)*/
+h2 {
+  transition: ease-in-out 0.3s;
+}
+
+h2:hover {
+  color: red;
+  transition: ease-in-out 0.3s;
+  transform: translateX(100px);
+}

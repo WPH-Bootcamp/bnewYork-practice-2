@@ -1,0 +1,25 @@
+div {
+  width: 100%;
+  height: 500px;
+}
+
+div {
+  /* 1. BACKGROUND COLOR */
+  background-color: red;
+
+  /* 2. BACKGROUND IMAGE */
+  background-image: url("../assets/avenger.jpg");
+
+  /* 3. BACKGROUND REPEAT */
+  background-repeat: no-repeat;
+
+  /* 4. BACKGROUND POSITION */
+  /* background-position : vertical horizontal
+    -. vertical : top, center, bottom
+    -. horizontal : left, center, right
+  */
+  background-position: center center;
+
+  /* 5. BACKGROUND SIZE */
+  background-size: cover;
+}
