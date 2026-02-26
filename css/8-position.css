@@ -1,0 +1,67 @@
+body {
+  height: 2000px;
+}
+
+h1 {
+  margin-top: 200px;
+}
+.kotak {
+  width: 100px;
+  height: 100px;
+}
+
+.hijau {
+  background-color: green;
+}
+
+.merah {
+  background-color: red;
+}
+
+.biru {
+  background-color: blue;
+}
+
+.kuning {
+  background-color: yellow;
+  border-radius: 360px;
+  border: 2px solid black;
+}
+
+.pink {
+  width: 100%;
+  background-color: pink;
+}
+
+/* STATIC */
+.static {
+  position: static;
+  left: 100px;
+  top: 20px;
+}
+
+/* RELATIVE */
+.relative {
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+/* ABSOLUTE */
+.absolute {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+
+/* FIXED */
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
